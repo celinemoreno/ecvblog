@@ -1,0 +1,105 @@
+/*------------------------------------*\
+    #HEADINGS
+
+		<h1>Brandon Grotesque Office Bold, Italic, 60pt;</h1>
+		<h2>Brandon Grotesque Office Bold, Italic, 30pt;</h2>
+		<h3>Brandon Grotesque Office Bold, Italic, 20pt;</h3>
+		<h4>Brandon Grotesque Office, Bold, 20pt;</h4>
+		<h5>Brandon Grotesque Office, Bold, 15pt;</h5>
+		<h6>Brandon Grotesque Office, Italic, 20pt;</h6>
+
+		<h7>Museo, 500, 13pt;</h7>
+		<h8>Museo, 700, 15pt;</h8>
+		<h9>Museo, 700, 55pt;</h9>
+
+\*------------------------------------*/
+
+/**
+ * Heading 1
+ */
+h1  {
+	line-height: 1.2;
+	font-family: "Brandon-Bold-Italic";
+	font-size: 60px;
+}
+
+/**
+ * Heading 2
+ */
+h2 {
+	line-height: 1.2;
+	font-family: "Brandon-Bold-Italic";
+	font-size: 30px;
+
+}
+
+/**
+ * Heading 3
+ */
+h3  {
+font-family: "Brandon-Bold-Italic";
+font-size: 20px;
+line-height: 23px;
+}
+
+/**
+ * Heading 4
+ */
+h4  {
+	font-family: "Brandon-Bold";
+	font-size: 20px;
+	line-height: 28px;
+}
+
+/**
+ * Heading 5
+ */
+h5 {
+font-family: "Brandon-Bold";
+font-size: 15px;
+}
+
+/**
+ * Heading 6
+ */
+h6 {
+font-family: "Brandon-Italic";
+font-size: 20px;
+line-height: 28px;
+}
+
+/**
+ * Heading 7
+ */
+h7 {
+font-family: "Museo500";
+font-size: 13px;
+letter-spacing: 0.4px;
+}
+
+/**
+ * Heading 8
+ */
+h8 {
+	font-family: "Museo700";
+	font-size: 15px;
+	letter-spacing: 0;
+}
+
+/**
+ * Heading 9
+ */
+h9 {
+	font-family: "Museo700";
+	font-size: 55px;
+}
+
+
+
+/**
+ * Subheading
+ */
+.subheading {
+	font-family: $font-secondary;
+	font-weight: normal;
+}

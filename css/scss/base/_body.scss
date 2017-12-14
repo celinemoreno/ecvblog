@@ -1,0 +1,47 @@
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+@font-face {
+ font-family: "Brandon-Reg";
+ src: url("../../fonts/Brandon-Grotesque-Office-Regular.otf") format("opentype");
+}
+
+@font-face {
+ font-family: "Brandon-Italic";
+ src: url("../../fonts/Brandon-Grotesque-Office-Italic.otf") format("opentype");
+}
+
+@font-face {
+ font-family: "Brandon-Bold";
+ src: url("../../fonts/Brandon-Grotesque-Office-Bold.otf") format("opentype");
+}
+
+@font-face {
+ font-family: "Brandon-Bold-Italic";
+ src: url("../../fonts/Brandon-Grotesque-Office-Bold-Italic.otf") format("opentype");
+}
+
+@font-face {
+ font-family: "Museo500";
+ src: url("../../fonts/Museo500-Regular.otf") format("opentype");
+}
+
+@font-face {
+ font-family: "Museo700";
+ src: url("../../fonts/Museo700-Regular.otf") format("opentype");
+}
+
+/**
+ * Body base styles
+ */
+body {
+	background: #ADADAD;
+	color: $color-black;
+	font-family: $font;
+	-webkit-text-size-adjust: 100%;
+	min-height: 100vh;
+  font-size: 20px;
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,38 @@
+.article_block {
+  display: flex;
+  position: relative;
+}
+
+.title {
+  line-height: 1.2;
+  font-family: "Brandon-Bold-Italic";
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: $color-white;
+  position: relative;
+  padding: 10px;
+  width: 68%;
+}
+
+.date {
+  font-family: "Museo500";
+  font-size: 15px;
+  letter-spacing: 0;
+  color : $color-white;
+  position: relative;
+  padding: 20px;
+  bottom: 0px;
+  display: inline-block;
+}
+
+.article_text {
+  position: absolute;
+  margin: 10px;
+  bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  position: relative;
+  padding: 10px 10px 0px 20px;
+}

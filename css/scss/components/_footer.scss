@@ -1,0 +1,24 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  }
+li {
+
+    float: left;
+
+}
+li h5 {
+
+    padding: 15px;
+}
+
+.footer {
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+background: $color-white;
+padding-top: 50px;
+
+}

@@ -1,0 +1,155 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+/**
+ * Button
+ */
+.c-btn {
+	font-family: "Museo700";
+	font-size: 15px;
+  letter-spacing: 1px;
+  width:auto;
+	height: 25px;
+	border-radius: 0px;
+	display: inline-block;
+	background: $color-violet;
+	color: $color-white;
+	border: none;
+	line-height: 1;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 0rem 1rem 0rem 1rem;
+	text-align: center;
+	transition: background 0.2s ease;
+	cursor: pointer;
+
+
+
+	&:hover, &:focus {
+		background: $color-violetsombre;
+		color: $color-white;
+	}
+}
+
+.c-btn-author {
+	font-family: "Museo500";
+	font-size: 13px;
+	letter-spacing: 0.4px;
+	width:auto;
+	height: 22px;
+	border-radius: 0px;
+	display: inline-block;
+	background: $color-grey;
+	color: $color-black;
+	border: none;
+	line-height: 1;
+	font-weight: bold;
+	padding: 0rem 1rem 0rem 1rem;
+	text-align: center;
+	transition: background 0.2s ease;
+	cursor: pointer;
+
+}
+
+.c-btn-agenda, .c-btn-lexique, .c-btn-equipe {
+	font-family: "Brandon-Bold";
+	font-size: 15px;
+	text-transform: uppercase;
+	width:auto;
+	height: 30px;
+	width : 95px;
+	border-radius: 0px;
+	display: inline-block;
+	background: $color-white;
+	color: $color-black;
+	border: none;
+	margin-bottom: 15px;
+	line-height: 1;
+	font-weight: bold;
+	padding: 0.5rem 1rem 0rem 1rem;
+	text-align: left;
+	transition: background 0.2s ease;
+	cursor: pointer;
+
+	&:hover, &:focus {
+		background: $color-rouge;
+		color: $color-black;
+	}
+}
+
+.c-btn-newsletter {
+	font-family: "Brandon-Bold";
+	font-size: 15px;
+	text-transform: uppercase;
+	width:auto;
+	height: 30px;
+	width : 125px;
+	border-radius: 0px;
+	display: inline-block;
+	background: $color-white;
+	color: $color-black;
+	border: none;
+	line-height: 1;
+	margin-bottom: 15px;
+	font-weight: bold;
+	padding: 0.5rem 1rem 0rem 1rem;
+	text-align: left;
+	transition: background 0.2s ease;
+	cursor: pointer;
+
+	&:hover, &:focus {
+		background: $color-rouge;
+		color: $color-black;
+	}
+}
+
+.c-btn-nouscontacter {
+	font-family: "Brandon-Bold";
+	font-size: 15px;
+	text-transform: uppercase;
+	width:auto;
+	height: 30px;
+	width : 170px;
+	border-radius: 0px;
+	display: inline-block;
+	background: $color-white;
+	color: $color-black;
+	border: none;
+	line-height: 1;
+	font-weight: bold;
+	padding: 0.5rem 1rem 0rem 1rem;
+	text-align: left;
+	transition: background 0.2s ease;
+	cursor: pointer;
+
+	&:hover, &:focus {
+		background: $color-rouge;
+		color: $color-black;
+	}
+}
+
+.c-btn-logiciels, .c-btn-code, .c-btn-veille, .c-btn-tutoriels, .c-btn-livres, .c-btn-histoire, .c-btn-focus {
+	font-family: "Brandon-Bold";
+	font-size: 15px;
+	text-transform: uppercase;
+	width:auto;
+	height: 30px;
+	border-radius: 0px;
+	display: inline-block;
+	background: none;
+	color: $color-black;
+	border: none;
+	line-height: 1;
+	font-weight: bold;
+	padding: 0.5rem 1rem 0rem 1rem;
+	text-align: center;
+	transition: background 0.2s ease;
+	cursor: pointer;
+
+	&:hover, &:focus {
+		background: $color-violet;
+		color: $color-white;
+	}
+
+}
